@@ -1,3 +1,4 @@
+% ==============================================================================
 \usetheme{metropolis}   % Use metropolis theme
 \usepackage{subcaption} % captionaing
 \usepackage{caption}	% captionaing
@@ -8,9 +9,13 @@
 \usepackage{xpatch}
 \usepackage[sfdefault]{FiraSans}	% for a better font
 
-% Bringing in colours ========================================
-% Bringing in colours ========================================
-% Bringing in colours ========================================
+% Apply background and text color ==============================================
+\setbeamercolor{background canvas}{ bg = backgroundcolour}
+\setbeamercolor{normal text}{       fg = textcolour}
+
+% Bringing in colours ==========================================================
+% Bringing in colours ==========================================================
+% Bringing in colours ==========================================================
 
 % Egg-shell white and charcoal
 \definecolor{backgroundcolour}{HTML}{   FAF9F6}
@@ -39,7 +44,3 @@
 % % Very Pale Rose | Soft Charcoal
 % \definecolor{backgroundcolour}{HTML}{   FFF6F6}
 % \definecolor{textcolour}{HTML}{         303030}
-
-% Apply background and text color ============================
-\setbeamercolor{background canvas}{ bg = backgroundcolour}
-\setbeamercolor{normal text}{       fg = textcolour}
